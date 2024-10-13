@@ -1,0 +1,52 @@
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: linear-gradient(135deg, black, white);
+    margin: 50px auto 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1{
+    text-align: center;
+}
+/* Flex container for input and button */
+.todo-app input, .todo-app button {
+    display: inline-block;
+}
+
+/* Flex container for input and button */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Adjust input width */
+#task-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+/* Button stays inline with input */
+#add-task-btn {
+    padding: 10px 15px;
+    background-color: #002765;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#add-task-btn:hover {
+    background-color: #004494;
+}
